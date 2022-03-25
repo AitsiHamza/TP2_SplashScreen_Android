@@ -13,16 +13,12 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         ImageButton arrowTopIB=findViewById(R.id.arrowTop);
         EditText usernameET=findViewById(R.id.userNameET);
@@ -34,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,
-                        Home.class);
+                Intent intent = new Intent(LoginActivity.this,
+                        InfosActivity.class);
 
                 Bundle b = new Bundle();
                 b.putString("username", usernameET.getText().toString());

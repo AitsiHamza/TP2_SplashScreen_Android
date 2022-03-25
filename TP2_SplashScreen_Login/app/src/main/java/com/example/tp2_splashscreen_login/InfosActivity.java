@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Home extends AppCompatActivity {
+public class InfosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_infos);
         Intent intent = getIntent();
 
         Bundle b = intent.getExtras();

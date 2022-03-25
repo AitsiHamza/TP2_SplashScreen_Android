@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-public class SplashScreen extends AppCompatActivity {
+public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class SplashScreen extends AppCompatActivity {
                     }
 
                     // After 5 seconds redirect to another intent
-                    Intent i=new Intent(getBaseContext(),MainActivity.class);
+                    Intent i=new Intent(getBaseContext(), LoginActivity.class);
                     startActivity(i);
 
                     //Remove activity
