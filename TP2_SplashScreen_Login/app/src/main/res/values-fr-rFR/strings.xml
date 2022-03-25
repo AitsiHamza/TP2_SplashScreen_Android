@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compte</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="user_password">Mot de passe</string>
+    <string name="btn_submit">Entrer</string>
+    <string name="header">Les informations du compte de l\'utilisateur</string>
+</resources>
