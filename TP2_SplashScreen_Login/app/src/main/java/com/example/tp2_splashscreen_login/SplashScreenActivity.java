@@ -14,7 +14,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        Toast.makeText(getBaseContext(), "Hello!",Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(), "Hello!",Toast.LENGTH_SHORT).show();
 
         /****** Create Thread that will sleep for 5 seconds****/
         Thread background = new Thread() {
